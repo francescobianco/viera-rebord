@@ -32,3 +32,6 @@ auth.json
 
 # Network captures
 /captures/
+
+# Build firmware ESP
+/firmware/build/
