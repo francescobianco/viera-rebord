@@ -120,6 +120,8 @@ scripts/orangepi-wep-ap.sh   AP WEP su Orange Pi — NB: XR819 non spoofa il BSS
 scripts/router.sh            finto router su LAN diretta PC<->TV (dnsmasq DHCP/DNS + tcpdump)
 scripts/wifi-sniff.sh        sniffing passivo in monitor mode (channel hopping 2.4 GHz)
 scripts/probe-tv.sh          a TV online: porte Panasonic, SSDP/UPnP, telecomando VIERA (:55000)
+scripts/sniffer-web.py       pannello web (porta 9909) che legge la seriale dell'ESP e mostra
+                             probe/TV in tempo reale (stdlib Python, nessuna dipendenza)
 captures/                    pcap e log (ESCLUSI dal git via .gitignore)
 rete.txt                     parametri di riferimento (SSID/BSSID)
 IDEA.md                      visione del progetto VIERA REBORN
